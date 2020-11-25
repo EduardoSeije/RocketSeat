@@ -1,11 +1,47 @@
 <html lang='en'>
     <head>
         <meta charset="UTF-8">
-        <title>DOcument</title>
+        <title>Document</title>
+
+<style>
+ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+    li {
+        clear: both;
+        margin-top: 20px;
+
+    }
+
+    img {
+        width: 80px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    strong {
+        font-size: 20px;
+    }
+
+    p {
+        margin: 5px;
+    }
+</style>
+
     </head>
     <body>
-        <button id='novotodo'>Adicionar</button>
-
+        <form id="repo-form">
+            <input type="text" name='repository' />
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="repo-list">
+           
+        </ul>
+      
         <script src="./bundle.js"></script>
     </body>
 </html>    
